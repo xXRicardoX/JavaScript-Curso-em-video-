@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>    
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Cidade que vive <input type="text" name="txtpais" id="txtpais"> atualmente 
+
+    <input type="button" value="Pesquisar" onclick="verificar()">
+
+    <div id="nac">
+
+    </div>
+
+    <script>
+        function verificar() {
+            var txtpais = window.document.querySelector('input#txtpais')
+            var nac = window.document.querySelector('div#nac')
+            var pais = String(txtpais.value)
+
+            nac.innerHTML = `<p>A sua nacionalidade é <strong>${pais}</strong> atualmente </p>`            
+
+            if(pais == 'Brasil'|| pais == 'brasil') {
+                  nac.innerHTML += `<p>você é <strong>Brasileiro</strong></p>`
+            }
+            else{
+                nac.innerHTML += `<p>Você é <strong>estrageiro</strong></p>`
+            }
+                
+        }
+    </script>
+    
+</body>
+</html>

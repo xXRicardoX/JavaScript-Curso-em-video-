@@ -1,0 +1,50 @@
+Para converter string para numero, pode usar Number.parseInt para os numeros inteiros, Number.parseFloat para numero real e apenas o Number que o proprio JS ira decidir se é inteiro ou real
+
+    Modo 1 (int)
+    var n1 = Number.parseInt(window.prompt('Digite um valor: '))//string
+    var n2 = Number.parseInt(window.prompt('Digite um outro valor: '))//string
+    var s = n1 + n2
+    window.alert('A soma dos valores é ' + s )// concatenação
+
+    Modo 2 (float)
+    var n1 = Number.parseFloat(window.prompt('Digite um valor: '))//string
+    var n2 = Number.parseFloat(window.prompt('Digite um outro valor: '))//string
+    var s = n1 + n2
+    window.alert('A soma dos valores é ' + s )// concatenação
+    //(Number + number) para adição
+    //(string + string) para concatenação
+
+    Modo 3 (O JS que irá decidir)
+    var n1 = Number(window.prompt('Digite um valor: '))//string
+    var n2 = Number(window.prompt('Digite um outro valor: '))//string
+    var s = n1 + n2 
+    window.alert('A soma dos valores é ' + s )// concatenação
+    //(Number + number) para adição
+    //(string + string) para concatenação
+
+Para converter numero para string se usa String(n) ou n.toString
+    Modo 1
+    window.alert('A soma dos valores é ' + String(s) )// concatenação
+
+    Modo 2
+    window.alert('A soma dos valores é ' + s.toString )// concatenação
+
+Formatando Strings
+var s = 'JavaScript'
+'Eu estou aprendendo s' //não faz interpolação
+'Eu estou aprendendo ' + s // usa concatenação
+`Eu estou aprendendo ${s}`   //usa template string
+
+s.length            // Quantos caracteres a string tem
+s.toUpperCase()     // Tudo para maiuscula
+s.toLowerCase()     //Tudo para minuscula
+
+Formatando os numeros
+para formatar os numeros reais e deixar em 2 casas decimais ira utilizar.
+a var = n1.toFixed(2)
+
+para trocar o ponto para virgula 
+a var = n1.toFixed(2).replace ('.',',') //que seria trocar o ponto para virgula
+
+para converter em valores reais
+n1.toLocaleString('pt-BR',{style:'currency', currency:'BRL'})

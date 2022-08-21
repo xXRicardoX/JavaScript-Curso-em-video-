@@ -1,0 +1,7 @@
+let num = [1,2,3] //numero do vetor inicial
+var[3] = 5 //acrescenta o valor na casa decimal e adiciona um novo valor
+var.push(7) //push acrescenta um valor na ultima casa independente de numero de casa
+var.length // length e o comprimento dos numeros de elementos
+var.sort() // sort coloca o numero em ordem ordenados
+var.indexOf() // Serve para mostrar -1 caso não haja o valor no vetor
+

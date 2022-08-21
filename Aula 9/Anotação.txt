@@ -1,0 +1,20 @@
+Selecionando{
+    por Marca
+    getElementsByTagName()
+
+    por ID
+     getElementById()
+
+    por Nome
+     getElementsByName()
+    
+    por Classe
+     getElementsByClassName()
+
+    por Seletor
+     querySelector() // quando for utilizar o selector usa # para ID e . para class
+     querySelectorAll()
+    
+}
+
+Obs: O innerText pega o texto formatado, e o innetHTML deixa formatado em formato de site

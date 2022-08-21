@@ -1,0 +1,12 @@
++ = soma.
+- = Subtração.
+* = Multiplicação.
+/ = divisão real.
+% = resto da devisão inteiro. 
+** = elevado a potencia.
+
+Ordem de Precedencia
+1. () Parentes
+2. ** Elevado a potencia
+3. * / % Multiplicação, divisão e resto da divisão
+4. + - soma e Subtração

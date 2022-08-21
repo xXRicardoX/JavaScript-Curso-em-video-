@@ -1,0 +1,6 @@
+Criando funçôes
+
+function ação(parametros){ // O ação deve vai ser o que vai executar
+ ao criar uma função deve colocar o codigo dentro do bloco.
+
+}

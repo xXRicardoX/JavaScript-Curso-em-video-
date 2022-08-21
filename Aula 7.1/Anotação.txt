@@ -1,0 +1,18 @@
+Relacionais
+5 > 2 => true
+7 < 4 => false
+8 >= 8 => true
+9 <= 7 => false
+5 == 5 => true
+4 != 4 => false
+
+Identidade
+5 == 5 => true
+5 == '5' => true
+5 === '5' => false (3 sinais de de iguais quer dizer que são iguais e do mesmo tipo)
+x !== y => Desigual restrito, são de tipos diferentes mas o valor interno e o mesmo
+
+Ternario
+? :
+exemplo:
+2 > 5 ? 'Verdadeiro' : 'False'
